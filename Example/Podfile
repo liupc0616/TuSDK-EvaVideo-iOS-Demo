@@ -1,0 +1,14 @@
+
+workspace 'TuSDKEvaDemo'
+
+target 'TuSDKEvaDemo' do
+   project 'TuSDKEvaDemo/TuSDKEvaDemo.xcodeproj'
+   workspace 'TuSDKEvaDemo'
+
+
+   use_frameworks!
+
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'Bugly'
+end
